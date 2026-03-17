@@ -1,8 +1,53 @@
-# Blog 发布指南
+# Blog Generator with Edit Tool
+
+多平台博客生成工具 - 自动将博客内容和插图转换为适配不同平台的格式
+
+## 项目简介
+
+这个工具可以将原始博客文本（Word/Markdown）和插图（PDF/图片）自动转换为四个主流平台的发布格式：
+- Medium
+- Mirror (Web3)
+- X/Twitter Article
+- 官网 Blog HTML
+
+## 如何使用
+
+### 申请访问权限
+
+本项目为团队内部工具。如需使用，请：
+
+1. 联系项目维护者申请 Collaborator 权限
+2. 或提交 Issue 说明使用场景
+3. 获得批准后即可 clone 到本地使用
+
+### 克隆到本地
+
+```bash
+git clone git@github.com:Nami3Piece/blog-generator-edit-tool.git
+cd blog-generator-edit-tool
+```
+
+### 准备你的内容
+
+1. 将博客文本放在 `blog.docx` 或 `blog.txt`
+2. 将插图放在 `插图.pdf` 或单独的图片文件
+3. 运行生成脚本（待开发）
+
+## 反馈和问题
+
+如果在使用过程中遇到问题或有改进建议：
+
+1. 提交 Issue：https://github.com/Nami3Piece/blog-generator-edit-tool/issues
+2. 描述问题或建议
+3. 我们会尽快回复
+
+欢迎团队成员贡献代码和改进！
+
+---
 
 ## 文件说明
 
-已为你生成四个平台的博客版本：
+当前版本包含四个平台的博客示例：
 
 ### 1. Medium (`medium.md`)
 - 格式：Markdown
